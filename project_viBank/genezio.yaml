@@ -1,0 +1,10 @@
+frontend:
+    path: ./project_viBank/
+    publish: build
+    scripts:
+        build: npm run build
+        deploy: npm install
+    subdomain: viBank
+name: viBank
+region: us-east-1
+yamlVersion: 2
